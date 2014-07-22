@@ -125,7 +125,7 @@ library to build by explicitly listing the library in your `Cargo.toml`:
 
 [[lib]]
 
-crate-types = [ "dylib" ]
+crate_type = [ "dylib" ]
 ```
 
 The available options are `dylib` and `staticlib`. You should only use
